@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29102.190
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveSplit", "LiveSplit\LiveSplit.csproj", "{E8047F95-BA79-4E2E-A9BB-5C48D5FA2467}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -119,6 +119,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveSplit.Racetime", "Compo
 		{56DEA3A0-2EB7-493B-B50F-A5E3AA8AE52A} = {56DEA3A0-2EB7-493B-B50F-A5E3AA8AE52A}
 		{6DE847DB-20A3-4848-AEEE-1B4364AECDFB} = {6DE847DB-20A3-4848-AEEE-1B4364AECDFB}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveSplit.TMServer", "Components\LiveSplit.TMServer\LiveSplit.TMServer.csproj", "{53268AD1-219E-4A1B-A209-2CF865B12A50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -319,6 +321,12 @@ Global
 		{071DD33F-6D10-4C1C-AA52-C86F02CEB67C}.Release Candidate|Any CPU.Build.0 = Release|Any CPU
 		{071DD33F-6D10-4C1C-AA52-C86F02CEB67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{071DD33F-6D10-4C1C-AA52-C86F02CEB67C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53268AD1-219E-4A1B-A209-2CF865B12A50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53268AD1-219E-4A1B-A209-2CF865B12A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53268AD1-219E-4A1B-A209-2CF865B12A50}.Release Candidate|Any CPU.ActiveCfg = Release Candidate|Any CPU
+		{53268AD1-219E-4A1B-A209-2CF865B12A50}.Release Candidate|Any CPU.Build.0 = Release Candidate|Any CPU
+		{53268AD1-219E-4A1B-A209-2CF865B12A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53268AD1-219E-4A1B-A209-2CF865B12A50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -356,6 +364,7 @@ Global
 		{CA2C668C-1C3F-4C44-9034-99848AFE47BA} = {91298215-12A5-4194-B848-1D6ABBFC586E}
 		{825B6521-94B8-4C8A-9709-3CA2ABFE70D7} = {91298215-12A5-4194-B848-1D6ABBFC586E}
 		{071DD33F-6D10-4C1C-AA52-C86F02CEB67C} = {91298215-12A5-4194-B848-1D6ABBFC586E}
+		{53268AD1-219E-4A1B-A209-2CF865B12A50} = {18031338-5A00-4AFC-9476-6C491B31B66C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63FB9C43-D26C-4159-82EE-CECE7D2AA44F}
